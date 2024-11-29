@@ -30,6 +30,8 @@ buttons.forEach((button) => {
 
 */
 
+
+
 let output = "";  // Declare `output` as a `let` variable so it can be modified.
 const display = document.querySelector(".display");
 const buttons = document.querySelectorAll("button");
