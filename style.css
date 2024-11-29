@@ -41,6 +41,25 @@ body{
     color: black;
     border-radius: 15px;
     padding: 20px;
-   
+    pointer-events: none;
 
+}
+
+
+.button button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.button button:active{
+    transform: scale(0.99);
+}
+
+.operator{
+    color: blue;
 }
